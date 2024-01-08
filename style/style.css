@@ -23,6 +23,7 @@ body {
     text-align: center;
     font-size: 32px;
     font-weight: 400;
+    padding: 100px auto 3px;
 }
 
 .title {
@@ -32,7 +33,7 @@ body {
     width: 632px;
     font-weight: 900;
     line-height: 95px;
-    padding: 230px 345px 230px 345px;
+    margin: 250px ;
 }
 
 .off h1 {
@@ -201,6 +202,11 @@ body {
     height: 140px;
     flex-shrink: 0;
 }
+/* coming soon style */
+.baba{
+    display: flex;
+    background: #FFF;
+}
 
 /* holidays style */
 .hello {
@@ -306,7 +312,7 @@ body {
     justify-content: center;
     width: 150px;
     height: 150px;
-    margin:20px 550px ;
+    margin: 20px 550px;
 }
 
 .sub h1 {
@@ -330,6 +336,10 @@ body {
     width: 648px;
     height: 72px;
     border-radius: 50px 0 0 50px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .sub button {
@@ -342,7 +352,71 @@ body {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+    clear: both;
 }
-.sub .oma{
+
+.sub .oma {
     margin: 10px 200px;
+}
+
+/* footer section style */
+.good {
+    background-color: #070211;
+    width: 100%;
+    height: 450px;
+}
+
+.good .pothom {
+    height: 165px;
+
+}
+
+.pothom .nana {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 400px;
+    float: left;
+    margin: 30px 40px;
+}
+
+.pothom .nani p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    float: right;
+   margin: 20px 10px ;
+
+}
+
+.pothom .nani a{
+    color: #FFF;
+    float: right;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 20px 10px ;
+}
+
+.good .ancor {
+    height: 120px;
+    margin: 20px 300px;
+}
+
+.good .oh {
+    height: 165px;
+}
+.oh p{
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+}
+.h .p1{
+    float: left;
+    margin: 20px 40px;
+}
+.oh .p2{
+    float: right;
+    margin: 20px 40px;
 }
