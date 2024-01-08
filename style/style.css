@@ -3,6 +3,11 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 /* header section style */
 .container {
     background-image: url('../image/Banner\ Image.png');
@@ -10,7 +15,7 @@ body {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    margin: 0 auto;
+
 }
 
 .happy {
@@ -65,6 +70,9 @@ body {
     display: flex;
     background-image: url('../image/Vectorrr.png');
     background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
 }
 
 .man .text h2 {
@@ -88,8 +96,253 @@ body {
     width: 141.641px;
     height: 141.641px;
     padding: 0.008px 0px 0px 0px;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-} 
+}
+
+.last {
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background-color: #ffe9e9;
+}
+
+.last .same {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.last span {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.last .btn {
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+}
+
+/* main section  start here */
+/* .container-bonus {
+    display: flex;
+    width: px;
+    background-color: white;
+} */
+
+.first h2 {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.first h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.first p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+}
+
+.sera img {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.finis h1 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.finis p {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.finis img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+/* holidays style */
+.hello {
+    background-image: url(../image/Rectangle\ 2.png);
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
+
+.holiday h2 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday h1 {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday span {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    width: 1068px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/* fasion sectuin */
+.fasion {
+    width: 1600px;
+    background: #FFF;
+}
+
+.fasion h2 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fasion h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.fasion p .lal {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.kostu {
+    margin: 0 140px;
+}
+
+.picture {
+    display: block;
+    margin: 0 140px;
+}
+
+.picture img {
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.picture img:hover {
+    border: 2px solid green;
+}
+
+/* ham section */
+.sub {
+    background-color: #ffe9e9;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    margin: 0 140px;
+    clear: both;
+}
+
+.sub img {
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin:20px 550px ;
+}
+
+.sub h1 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.sub p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    width: 896px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.sub input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+}
+
+.sub button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.sub .oma{
+    margin: 10px 200px;
+}
