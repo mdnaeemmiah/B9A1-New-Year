@@ -4,7 +4,7 @@ body {
 }
 
 * {
-    margin: 50px 140px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -15,6 +15,7 @@ body {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
+    margin-bottom: 50px;
 
 }
 
@@ -34,6 +35,10 @@ body {
     font-weight: 900;
     line-height: 95px;
     margin: 250px;
+}
+
+.off {
+    margin-bottom: 50px;
 }
 
 .off h1 {
@@ -67,7 +72,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:50%;
+    width: 50%;
 }
 
 .man {
@@ -77,9 +82,15 @@ body {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
+    margin-bottom: 50px;
 }
 
-.man .text h2 {
+.text {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.text h2 {
     color: #FFF;
     width: 642px;
     font-size: 64px;
@@ -88,21 +99,32 @@ body {
     letter-spacing: 7.04px;
 }
 
-.man .text p {
-    Copy color: rgba(255, 255, 255, 0.80);
+.text p {
+    color: white;
     width: 697px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
 
+.text .btn {
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .img .pic {
-    width: 141.641px;
-    height: 141.641px;
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
     padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    margin-top: 30px;
+    margin-right: 30px;
 }
 
 .last {
@@ -110,24 +132,23 @@ body {
     height: 482px;
     flex-shrink: 0;
     background-color: #ffe9e9;
+    margin-bottom: 50px;
+
 }
 
 .last .same {
     color: #F00;
     text-align: center;
-    font-family: Inter;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    /* 175% */
     text-transform: capitalize;
+    /* align-items: center; */
 }
 
 .last span {
     color: #070211;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
@@ -140,15 +161,18 @@ body {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    display: inline-flex;
     padding: 16px 32px;
     border-radius: 8px;
     background: #F00;
     border: none;
+    margin: 0;
+    position: absolute;
+    left: 50%;
 }
-.last .bt{
-    align-items: center;
-}
+
+/* .niche{
+    margin-top: 50px;
+} */
 
 /* main section  start here */
 /* .container-bonus {
@@ -213,7 +237,9 @@ body {
     display: flex;
     background: #FFF;
     width: 1600px;
-    margin: 0 auto;
+    margin-bottom: 50px;
+    align-items: center;
+    gap: 5px;
 }
 
 .baba1 h2 {
@@ -222,6 +248,7 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+
 }
 
 .baba1 h1 {
@@ -237,14 +264,21 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    width: 393px;
 }
 
 .baba2 img {
     width: 364.844px;
     height: 364.844px;
     border-radius: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
 }
-
+.baba3{
+    margin-right: 30px;
+}
+   
 .baba3 h1 {
     color: #F00;
     font-size: 48px;
@@ -260,13 +294,10 @@ body {
 }
 
 /* holidays style */
-.hello {
-    background-image: url(../image/Rectangle\ 2.png);
-    width: 1320px;
-    height: 229px;
-    border-radius: 16px 0px 16px 16px;
-    background: #F00;
+.holiday {
+    margin-bottom: 50px;
 }
+
 
 .holiday h2 {
     color: #070211;
@@ -298,11 +329,23 @@ body {
     font-weight: 500;
     line-height: 32px;
 }
+.gol{
+    background-image: url(../image/Rectangle\ 1.png);
+    float: left;
+}
+.hello {
+    background-image: url(../image/Rectangle\ 2.png);
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
 
 /* fasion sectuin */
 .fasion {
     width: 1600px;
     background: #FFF;
+    margin-bottom: 50px;
 }
 
 .fasion h2 {
@@ -318,13 +361,13 @@ body {
     text-transform: capitalize;
 }
 
-.fasion p .lal {
+  .kostu .lal p {
     color: rgba(7, 2, 17, 0.60);
     width: 896px;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    text-align: left;
+    width: 393px;
 }
 
 .kostu {
@@ -356,6 +399,7 @@ body {
     height: 616px;
     border-radius: 16px;
     margin: 0 140px;
+    margin-bottom: 50px;
     clear: both;
 }
 
@@ -432,22 +476,24 @@ body {
     margin: 30px 40px;
 }
 
-.pothom .nani p {
+.nani {
+    display: block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 70px;
+}
+
+.nani p {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
-    float: right;
-    margin: 20px 10px;
-
 }
 
-.pothom .nani a {
+.nani a {
     color: #FFF;
-    float: right;
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
-    margin: 20px 10px;
 }
 
 .good .ancor {
@@ -465,12 +511,15 @@ body {
     font-weight: 500;
 }
 
-.h .p1 {
+.oh .p1 {
     float: left;
-    margin: 20px 40px;
+    margin-top: 60px;
+    margin-left: 60px;
+
 }
 
 .oh .p2 {
     float: right;
-    margin: 20px 40px;
+    margin-top: 60px;
+    margin-right: 60px;
 }
