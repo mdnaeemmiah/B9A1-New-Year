@@ -337,16 +337,38 @@ body {
     font-weight: 500;
     line-height: 32px;
 }
-.gol{
+
+ .gol{
     background-image: url(../image/Rectangle\ 1.png);
-    float: left;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-right: 140px;
+   
 }
+ 
+.gol #opor{
+    /* margin-top: 100px; */
+    padding-top: 00px;
+}  
+
 .hello {
     background-image: url(../image/Rectangle\ 2.png);
     width: 1320px;
     height: 229px;
     border-radius: 16px 0px 16px 16px;
     background: #F00;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    margin: 0 140px;
+} 
+
+.gol{
+    display: flex;
+    align-items: center;
+}
+.gol #ami{
+
+ margin-right: 300px;
 }
 
 /* fasion sectuin */
